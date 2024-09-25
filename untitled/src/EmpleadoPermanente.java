@@ -1,2 +1,3 @@
-public class EmpleadoPermanente {
+public class EmpleadoPermanente
+{
 }
