@@ -32,4 +32,20 @@ public class EmpleadoPermanente extends Empleado {
     }
 
     // Getters y Setters
+
+    public String getBeneficios() {
+        return beneficios;
+    }
+
+    public void setBeneficios(String beneficios) {
+        this.beneficios = beneficios;
+    }
+
+    public double getSalarioBase() {
+        return salarioBase;
+    }
+
+    public void setSalarioBase(double salarioBase) {
+        this.salarioBase = salarioBase;
+    }
 }

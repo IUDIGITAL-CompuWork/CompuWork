@@ -35,4 +35,40 @@ public abstract class Empleado {
     protected abstract void setNombre(String nuevoNombre);
 
     // Otros getters y setters
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getFechaContratacion() {
+        return fechaContratacion;
+    }
+
+    public void setFechaContratacion(String fechaContratacion) {
+        this.fechaContratacion = fechaContratacion;
+    }
+
+    public Departamento getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(Departamento departamento) {
+        this.departamento = departamento;
+    }
 }

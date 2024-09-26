@@ -32,4 +32,20 @@ public class EmpleadoTemporal extends Empleado {
     }
 
     // Getters y Setters
+
+    public String getFechaFinalContrato() {
+        return fechaFinalContrato;
+    }
+
+    public void setFechaFinalContrato(String fechaFinalContrato) {
+        this.fechaFinalContrato = fechaFinalContrato;
+    }
+
+    public double getTasaPorHora() {
+        return tasaPorHora;
+    }
+
+    public void setTasaPorHora(double tasaPorHora) {
+        this.tasaPorHora = tasaPorHora;
+    }
 }
